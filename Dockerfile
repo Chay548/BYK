@@ -1,5 +1,5 @@
 FROM node:14
-WORKDIR usr/scr/app
+WORKDIR /usr/scr/app
 COPY Package*.json./
 RUN npm install
 COPY . .
